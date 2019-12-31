@@ -20,8 +20,6 @@ var spin_countVariations = function (text) {
 		return eval(text);
 	}
 
-/* This JS makes it work, here: */
-
 document.getElementById('run').onclick = function() {
     var source = document.getElementById('text');
     var result = document.getElementById('result');
